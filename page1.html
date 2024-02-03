@@ -1,1 +1,61 @@
-Hello Word !!!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+</head>
+<body>
+    <main>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Enregistrer un livre</legend>
+                <br>
+                <div>
+                    <label for="titre"> Titre : </label>
+                    <input type="text" id="titre" required>
+                </div>
+                <br>
+                <div>
+                    <label for="isbn">ISBN : </label>
+                    <input type="text" id="isbn" required>
+                </div>
+                <br>
+                <div>
+                    <label for="type"> Type : </label>
+                    <select name="type" id="type">
+                        <option value="" selected> Selectionnez un type </option>
+                        <option value="Java"> Java </option>
+                        <option value="HTML"> HTML </option>
+                        <option value=" Mathématiques "> Mathématiques </option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="auteur"> Auteur </label>
+                    <input type="text" id="auteur" required>
+                </div>
+                <br>
+                <div>
+                    <label for="editeur"> Editeur </label>
+                    <input type="text" id="editeur" required>
+                </div>
+                <br>
+                <div>
+                    <label for="date"> Date : </label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <br>
+                <div>
+                    <input type="file" name="fichier" id="fichier">
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Valider">
+                </div>
+            </fieldset>
+        </form>
+        <!--a href="./Rapport de Projet DUT ( Ibrahima Doumbia )_VF.pdf" download="download"> Télécharger </a-->
+    </main>
+</body>
+</html>
