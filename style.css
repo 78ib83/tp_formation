@@ -1,0 +1,15 @@
+main{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.titre{
+    background-color: silver;
+    width: fit-content; 
+    margin-left: 40%;
+}
+div{
+    text-align: justify;
+}
+input{
+    color: blue;
+}
